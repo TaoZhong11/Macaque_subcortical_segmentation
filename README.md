@@ -1,11 +1,9 @@
 # A subcortical segmentation tool based on anatomy attentional fusion network for developing macaques
 
-<div align=center><img width="614" height="599" src="https://github.com/TaoZhong11/nBEST/blob/main/Subcortical_SDM/SDM_overview.png"/></div>
 
 
 Considering that most macaque MRI samples usually contain T1w but not necessarily T2w, the model disclosed here supports inputting only T1w, and then generates corresponding SDM, subcortical region, and six types of subcortical fine structures(**thalamus, caudate, putamen, pallidum, hippocampus, and amygdala**).
 
-<div align=center><img width="820" height="417" src="https://github.com/TaoZhong11/nBEST/blob/main/visual_result.png"/></div>
 
 
 ## How to run
@@ -32,3 +30,6 @@ Upon completion of the processing, all resulting outputs will be generated and s
 * ```brain_mask/```: The brain mask of raw image.
 * ```brain_img/```: The skull stripped brain image.
 *  ```brain_subcortical_6class/```:	The subcortical fine structures.
+
+<div align=center><img width="748" height="727" src="https://github.com/TaoZhong11/Macaque_subcortical_segmentation/blob/main/visual_result.jpg"/></div>
+
